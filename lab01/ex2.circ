@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.4.3-61c.7ae7f66" version="1.0">
+<project source="3.3.6" version="1.0">
   This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
 
   <lib desc="#Wiring" name="0">
@@ -125,13 +125,14 @@
     <comp lib="0" loc="(100,210)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="label" val="clk"/>
-      <a name="locked" val="true"/>
+    </comp>
+    <comp lib="0" loc="(140,170)" name="Constant">
+      <a name="width" val="8"/>
     </comp>
     <comp lib="0" loc="(480,180)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="ADD_OUT"/>
-      <a name="locked" val="true"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
@@ -139,9 +140,39 @@
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="REG_OUT"/>
-      <a name="locked" val="true"/>
       <a name="output" val="true"/>
       <a name="width" val="8"/>
     </comp>
+    <comp lib="2" loc="(210,180)" name="Adder"/>
+    <comp lib="3" loc="(330,210)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <wire from="(100,210)" to="(120,210)"/>
+    <wire from="(120,210)" to="(120,280)"/>
+    <wire from="(120,280)" to="(330,280)"/>
+    <wire from="(140,170)" to="(170,170)"/>
+    <wire from="(140,190)" to="(140,330)"/>
+    <wire from="(140,190)" to="(170,190)"/>
+    <wire from="(140,330)" to="(430,330)"/>
+    <wire from="(210,180)" to="(290,180)"/>
+    <wire from="(290,180)" to="(290,240)"/>
+    <wire from="(290,180)" to="(480,180)"/>
+    <wire from="(290,240)" to="(330,240)"/>
+    <wire from="(390,240)" to="(430,240)"/>
+    <wire from="(430,240)" to="(430,330)"/>
+    <wire from="(430,240)" to="(480,240)"/>
+    <wire from="(480,180)" to="(490,180)"/>
   </circuit>
 </project>
+<!--Tue Mar  8 20:37:38 2022-->
+<!--/Users/alenavorobej/AVS/lab01-->
+<!--alenavorobej-->
+<!--Thu Mar 10 15:42:09 2022-->
+<!--/Users/alenavorobej/AVS/lab01-->
+<!--alenavorobej-->
+<!--Sun Mar 20 13:05:30 2022-->
+<!--/Users/alenavorobej/AVS/lab01-->
+<!--alenavorobej-->
+<!--Mon Mar 21 09:04:05 2022-->
+<!--/Users/alenavorobej/AVS/lab01-->
+<!--alenavorobej-->
