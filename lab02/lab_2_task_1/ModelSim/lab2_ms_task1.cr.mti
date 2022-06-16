@@ -1,0 +1,16 @@
+Z:/Users/alenavorobej/liza/lab2_task1/lab2_task1.sv {1 {vlog -work work -sv -stats=none Z:/Users/alenavorobej/liza/lab2_task1/lab2_task1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab2_task1
+-- Compiling module flopren
+
+Top level modules:
+	lab2_task1
+
+} {} {}} Z:/Users/alenavorobej/liza/lab2_task1/testbench.sv {1 {vlog -work work -sv -stats=none Z:/Users/alenavorobej/liza/lab2_task1/testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

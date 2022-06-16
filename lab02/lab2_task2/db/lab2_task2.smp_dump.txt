@@ -1,0 +1,11 @@
+
+State Machine - |lab2_task2|roomfsm:room|state
+Name state.TRASH state.WINROOM state.GRAVE state.DRAGON state.SWORD state.RIVER state.TUNNEL state.CAVE 
+state.CAVE 0 0 0 0 0 0 0 0 
+state.TUNNEL 0 0 0 0 0 0 1 1 
+state.RIVER 0 0 0 0 0 1 0 1 
+state.SWORD 0 0 0 0 1 0 0 1 
+state.DRAGON 0 0 0 1 0 0 0 1 
+state.GRAVE 0 0 1 0 0 0 0 1 
+state.WINROOM 0 1 0 0 0 0 0 1 
+state.TRASH 1 0 0 0 0 0 0 1 

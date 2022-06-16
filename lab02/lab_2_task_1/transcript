@@ -1,0 +1,73 @@
+# Compile of lab2_task1.sv was successful.
+# Compile of testbench.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 22:47:09 on Jun 11,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.lab2_task1
+# Loading work.flopren
+add wave  \
+sim:/testbench/clk \
+sim:/testbench/reset \
+sim:/testbench/left \
+sim:/testbench/right \
+sim:/testbench/lc \
+sim:/testbench/lb \
+sim:/testbench/la \
+sim:/testbench/ra \
+sim:/testbench/rb \
+sim:/testbench/rc \
+sim:/testbench/expected \
+sim:/testbench/vectornum \
+sim:/testbench/errors \
+sim:/testbench/testvectors
+run 200
+# ** Warning: (vsim-7) Failed to open readmem file "thunderbird.tv" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv(16)
+#    Time: 0 ps  Iteration: 0  Instance: /testbench
+# Error: inputs = xx
+#  outputs = 0 0 0 0 0 0 (xxxxxx expected)
+#          1 tests completed with          1 errors
+# ** Note: $stop    : C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv(35)
+#    Time: 25 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv line 35
+add wave  \
+vsim1:/testbench/clk \
+vsim1:/testbench/reset \
+vsim1:/testbench/left \
+vsim1:/testbench/right \
+vsim1:/testbench/lc \
+vsim1:/testbench/lb \
+vsim1:/testbench/la \
+vsim1:/testbench/ra \
+vsim1:/testbench/rb \
+vsim1:/testbench/rc \
+vsim1:/testbench/expected \
+vsim1:/testbench/vectornum \
+vsim1:/testbench/errors \
+vsim1:/testbench/testvectors
+run 200
+# Error: inputs = xx
+#  outputs = 0 0 0 0 0 0 (xxxxxx expected)
+#          2 tests completed with          2 errors
+# ** Note: $stop    : C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv(35)
+#    Time: 35 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv line 35
+run 300
+# Error: inputs = xx
+#  outputs = 0 0 0 0 0 0 (xxxxxx expected)
+#          3 tests completed with          3 errors
+# ** Note: $stop    : C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv(35)
+#    Time: 45 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv line 35
+run 200
+# Error: inputs = xx
+#  outputs = 0 0 0 0 0 0 (xxxxxx expected)
+#          4 tests completed with          4 errors
+# ** Note: $stop    : C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv(35)
+#    Time: 55 ps  Iteration: 1  Instance: /testbench
+# Break in Module testbench at C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv line 35
+# End time: 15:00:39 on Jun 12,2022, Elapsed time: 16:13:30
+# Errors: 0, Warnings: 6

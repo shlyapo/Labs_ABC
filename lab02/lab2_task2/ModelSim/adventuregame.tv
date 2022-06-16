@@ -1,0 +1,21 @@
+// nort south east west win die
+0010_00 // from cave to tunnel
+0100_00 // from tunnel to river
+0001_00 // from river to sword
+0010_00 // from sword to river
+0010_00 // from river to dragon (sword)
+0000_00 // from dragon to winroom
+0000_10 // победа
+// Testbench applies reset
+0010_00 // from cave to tunnel
+0100_00 // from cave to rivaer
+0010_00 // from river to dragon (no sword)
+0000_00 // from dragon to grave
+0000_01 // помер
+0000_01 // помер
+0000_01 // помер
+// MY ROOM WORKS TEST
+1000_00 // from cave to TRASH
+0100_00 // from TRASH back?
+0000_10 // грязная победа
+

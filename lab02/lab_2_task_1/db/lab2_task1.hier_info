@@ -1,0 +1,37 @@
+|lab2_task1
+clk => clk.IN3
+reset => reset.IN3
+left => left.IN1
+right => startmode.IN0
+lc <= preOutLc.DB_MAX_OUTPUT_PORT_TYPE
+lb <= preOutLb.DB_MAX_OUTPUT_PORT_TYPE
+la <= preOutLa.DB_MAX_OUTPUT_PORT_TYPE
+ra <= preOutRa.DB_MAX_OUTPUT_PORT_TYPE
+rb <= preOutRb.DB_MAX_OUTPUT_PORT_TYPE
+rc <= preOutRc.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2_task1|flopren:reg_lr
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2_task1|flopren:reg_state0
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2_task1|flopren:reg_state1
+clk => q~reg0.CLK
+reset => q~reg0.ACLR
+en => q~reg0.ENA
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

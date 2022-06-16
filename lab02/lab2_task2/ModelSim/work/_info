@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vlab2_task2
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1652635017
+!i10b 1
+!s100 CX4f]WcIhYbYgjGe<zU4[2
+I1]aj[]maEBKWBXU^iNl?D2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 fulladder_sv_unit
+S1
+Z4 dZ:/Users/alenavorobej/AVS/lab2_task2/ModelSim
+Z5 w1652634878
+Z6 8Z:/Users/alenavorobej/AVS/lab2_task2/fulladder.sv
+Z7 FZ:/Users/alenavorobej/AVS/lab2_task2/fulladder.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1652635017.000000
+Z10 !s107 Z:/Users/alenavorobej/AVS/lab2_task2/fulladder.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/Users/alenavorobej/AVS/lab2_task2/fulladder.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+vroomfsm
+R0
+R1
+!i10b 1
+!s100 TFeUH^6=lFo764V_Y70G71
+IgUhC8n6>Iic@X5SA9aY493
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 12
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vswordfsm
+R0
+R1
+!i10b 1
+!s100 >hZY;f0iTllES@Y_JBf2V2
+ImJALBEeTK`ZH>?IgRFdAz3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 55
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vtestbench
+R0
+R1
+!i10b 1
+!s100 MiCWBnH8LCdK_XTiJUnO20
+Ig18CY>fjKUL3`D71GWhDH1
+R2
+!s105 testbench_sv_unit
+S1
+R4
+w1652634783
+8Z:/Users/alenavorobej/AVS/lab2_task2/testbench.sv
+FZ:/Users/alenavorobej/AVS/lab2_task2/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 Z:/Users/alenavorobej/AVS/lab2_task2/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|Z:/Users/alenavorobej/AVS/lab2_task2/testbench.sv|
+!i113 1
+R12
+R13

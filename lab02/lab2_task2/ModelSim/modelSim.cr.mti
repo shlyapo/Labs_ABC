@@ -1,0 +1,17 @@
+Z:/Users/alenavorobej/AVS/lab2_task2/fulladder.sv {1 {vlog -work work -sv -stats=none Z:/Users/alenavorobej/AVS/lab2_task2/fulladder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab2_task2
+-- Compiling module roomfsm
+-- Compiling module swordfsm
+
+Top level modules:
+	lab2_task2
+
+} {} {}} Z:/Users/alenavorobej/AVS/lab2_task2/testbench.sv {1 {vlog -work work -sv -stats=none Z:/Users/alenavorobej/AVS/lab2_task2/testbench.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

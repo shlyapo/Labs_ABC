@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vflopren
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1654976207
+!i10b 1
+!s100 i1JD<X<YW7Hk<1G3ghm;`2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I263ANVhNdHlKo5AXo>;TM0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1
+Z5 w1652281188
+Z6 8C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/lab2_task1.sv
+Z7 FC:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/lab2_task1.sv
+!i122 0
+L0 73 7
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1654976207.000000
+Z10 !s107 C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/lab2_task1.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/lab2_task1.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+vlab2_task1
+R0
+R1
+!i10b 1
+!s100 ROYG?mm`9>HcLVB9@cHTi1
+R2
+ID<CjIa0C:QcXnEHz;Hk?K2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 0
+L0 2 69
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vtestbench
+R0
+R1
+!i10b 1
+!s100 >=dUdeWf2SMljD>H[A4BR3
+R2
+I:aB8P^`<_z>@lVc<8VJ113
+R3
+S1
+R4
+w1652280114
+8C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv
+FC:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv
+!i122 1
+L0 1 37
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/Admin/Desktop/Labs_ABC/lab02/lab_2_task_1/testbench.sv|
+!i113 1
+R12
+R13

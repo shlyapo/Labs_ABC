@@ -1,0 +1,47 @@
+|lab2_task2
+clk => clk.IN2
+reset => reset.IN2
+n => n.IN1
+s => s.IN1
+e => e.IN1
+w => w.IN1
+win <= roomfsm:room.port8
+die <= roomfsm:room.port9
+
+
+|lab2_task2|roomfsm:room
+clk => state~1.DATAIN
+reset => state~3.DATAIN
+n => nextstate.DATAA
+n => nextstate.DATAA
+s => nextstate.OUTPUTSELECT
+s => nextstate.OUTPUTSELECT
+s => Selector2.IN3
+s => Selector5.IN3
+s => Selector3.IN2
+e => nextstate.OUTPUTSELECT
+e => nextstate.OUTPUTSELECT
+e => Selector1.IN3
+e => nextstate.DATAA
+e => Selector2.IN4
+e => nextstate.DATAA
+e => Selector3.IN1
+w => nextstate.OUTPUTSELECT
+w => nextstate.OUTPUTSELECT
+w => nextstate.DATAA
+w => Selector3.IN4
+w => nextstate.DATAA
+sword_in => Selector5.IN4
+sword_in => Selector4.IN2
+sword_out <= sword_out.DB_MAX_OUTPUT_PORT_TYPE
+win <= win.DB_MAX_OUTPUT_PORT_TYPE
+die <= die.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2_task2|swordfsm:sword
+clk => state.CLK
+reset => state.ACLR
+sword_in => nextstate.DATAA
+sword_out <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
