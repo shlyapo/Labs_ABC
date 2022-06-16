@@ -50,7 +50,7 @@ tester:
 iterative:
     # YOUR CODE HERE
     addi t0, x0, 1 # mask
-    addi s0, x0, 0 # rang
+    addi s0, x0, 0 
     loop:
     and t1, a0, t0
     beq t1, x0, zzero # t1 == 0

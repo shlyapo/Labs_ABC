@@ -1,0 +1,14 @@
+
+State Machine - |controller|mainfsm:main_fsm|state
+Name state.BEQState state.JALState state.ExecutelState state.ALUWBState state.ExecuteRState state.MemWriteState state.MemWBState state.MemReadState state.MemAdrState state.DecodeState state.FetchState 
+state.FetchState 0 0 0 0 0 0 0 0 0 0 0 
+state.DecodeState 0 0 0 0 0 0 0 0 0 1 1 
+state.MemAdrState 0 0 0 0 0 0 0 0 1 0 1 
+state.MemReadState 0 0 0 0 0 0 0 1 0 0 1 
+state.MemWBState 0 0 0 0 0 0 1 0 0 0 1 
+state.MemWriteState 0 0 0 0 0 1 0 0 0 0 1 
+state.ExecuteRState 0 0 0 0 1 0 0 0 0 0 1 
+state.ALUWBState 0 0 0 1 0 0 0 0 0 0 1 
+state.ExecutelState 0 0 1 0 0 0 0 0 0 0 1 
+state.JALState 0 1 0 0 0 0 0 0 0 0 1 
+state.BEQState 1 0 0 0 0 0 0 0 0 0 1 

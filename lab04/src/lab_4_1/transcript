@@ -1,0 +1,43 @@
+# Compile of lab_4_1.sv was successful.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 17:57:06 on Jun 14,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.top
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.imem
+# Loading work.dmem
+run 1000
+add wave  \
+sim:/testbench/clk
+add wave  \
+sim:/testbench/reset
+add wave  \
+sim:/testbench/DataAdr
+add wave  \
+sim:/testbench/dut/rvsingle/ALUResult
+add wave  \
+sim:/testbench/dut/rvsingle/dp/SrcA
+add wave  \
+sim:/testbench/dut/rvsingle/dp/SrcB
+add wave  \
+sim:/testbench/dut/DataAdr
+add wave  \
+sim:/testbench/dut/Instr
+add wave  \
+sim:/testbench/dut/PC
+run 1000
+# End time: 18:05:23 on Jun 14,2022, Elapsed time: 0:08:17
+# Errors: 0, Warnings: 5
